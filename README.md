@@ -32,13 +32,13 @@ In file `cybersecurity_incidents.py`, you want to add the cybersecurity incident
 
 In the file, a description of an MPC protocol is provided. Your task is to implement it using either Shamir or Replicated secret sharing.
 
-### Scenario 2: Malicious RSS Share Auditing
+#### Scenario 2: Malicious RSS Share Auditing
 
 In file `RSS_malicious`, a function is given, in which parties receive shares of a secret value, exchange, and open them.
 
 On of the parties has tampered with the shares. This is detected due to the structure of the existing code. Your task is to write an additional function that takes the tampered shares and outputs a potential cheating pair.
 
-### Scenario 3: Healthcare Statistics
+#### Scenario 3: Healthcare Statistics
 
 In files `hospitals_with_RSS.py` and `hospitals_with_SSS.py`, some hospital data are given. Your task is to implement an MPC protocol that correctly aggragates the total sum of the hospital data column-wise and reveals only the total sum. Based on this, you can get the average statistics for 6 patients.
 
